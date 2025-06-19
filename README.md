@@ -41,17 +41,7 @@ All project details, including problem statement, features, planning, testing, a
 
 ---
 
-## 🖼️ Screenshots
 
-> These help visualize how the app works and what users can expect.
-
-### 1. User Interface (Main Screen)
-![Main UI](screenshots/app-ui.png)
-
-### 2. Sample Output
-![Generated Narrative](screenshots/sample-response.png)
-
----
 
 ## 🔗 Quick Start
 
