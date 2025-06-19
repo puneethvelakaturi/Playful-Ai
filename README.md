@@ -66,7 +66,7 @@ streamlit run project-playful-ai.py
 
 ## ✍️ Made by
 
-Ryaan Bansal
-Puneeth Velakaturi  
-Archi Dhoot  
-Riya Prasant Koradwar
+-Ryaan Bansal
+-Puneeth Velakaturi  
+-Archi Dhoot  
+-Riya Prasant Koradwar
