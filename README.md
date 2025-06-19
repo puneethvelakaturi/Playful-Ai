@@ -39,8 +39,6 @@ All project details, including problem statement, features, planning, testing, a
 - Future Enhancements
 - Conclusion
 
-> 📍 You can view the full documentation in the `/docs/` folder (or ask ChatGPT if you're using the canvas!).
-
 ---
 
 ## 🖼️ Screenshots
@@ -68,4 +66,8 @@ streamlit run project-playful-ai.py
 
 ## ✍️ Author
 
-Made with ❤️ by [Your Name]
+Made by 
+Ryaan Bansal;
+Puneeth Velakaturi
+Archi Dhoot
+Riya Prasant Koradwar
