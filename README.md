@@ -1,50 +1,71 @@
 # 🎲 Playful Game AI
 
-An AI-powered storytelling assistant that generates unique narratives, characters, and scenarios for board games using Google’s Gemini (Generative AI) and a lightweight Streamlit frontend.
+A lightweight AI-powered app to generate creative board game narratives using Google Generative AI (Gemini) and Streamlit.
 
 ---
 
-## 📌 Table of Contents
+## 📁 Code Overview
 
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [License](#license)
+The project consists of two main Python scripts and a requirements file:
 
----
+### `project-playful-ai.py`
+- The main Streamlit app.
+- Accepts user input, sends it to the Gemini model, and displays the AI-generated narrative.
 
-## 🧠 About the Project
+### `pre-trained-model.py`
+- Handles the configuration and creation of the Google Gemini model.
+- Parameters like temperature, top_p, top_k, and token limit can be customized here.
 
-**Playful Game AI** aims to enhance board games by automatically generating fresh narratives based on user prompts. Whether you’re a game designer, writer, or player, this tool helps spark creativity using Google’s Generative AI (Gemini model).
-
----
-
-## ✨ Features
-
-- 🎨 Generates 20-line narratives for board games based on your prompt
-- 💬 Predefined chat history for contextual content
-- ⚙️ Configurable model settings (temperature, top_k, etc.)
-- 📦 Lightweight and fast – built with Python and Streamlit
-- 📄 Clean interface to copy or modify the AI output
+### `requirements.txt`
+- Lists all Python dependencies:
+  ```text
+  streamlit
+  google-generativeai
+  ```
 
 ---
 
-## 🔧 Tech Stack
+## 📄 Documentation
 
-| Technology         | Use                                   |
-|--------------------|----------------------------------------|
-| Python             | Backend logic                          |
-| Streamlit          | Frontend/UI                            |
-| Google Generative AI (Gemini) | AI content generation                |
-| GitHub             | Version control and deployment         |
+All project details, including problem statement, features, planning, testing, and future enhancements, are available in the documentation.
+
+### 📘 Key Sections Included:
+- Problem Statement
+- Functional & Non-Functional Requirements
+- Project Planning and Day-Wise Schedule
+- Full Code Overview
+- Testing Methodology and Cases
+- Advantages & Disadvantages
+- Future Enhancements
+- Conclusion
+
+> 📍 You can view the full documentation in the `/docs/` folder (or ask ChatGPT if you're using the canvas!).
 
 ---
 
-## ⚙️ Installation
+## 🖼️ Screenshots
 
-### 1. Clone the Repository
+> These help visualize how the app works and what users can expect.
+
+### 1. User Interface (Main Screen)
+![Main UI](screenshots/app-ui.png)
+
+### 2. Sample Output
+![Generated Narrative](screenshots/sample-response.png)
+
+---
+
+## 🔗 Quick Start
 
 ```bash
 git clone https://github.com/your-username/playful-game-ai.git
 cd playful-game-ai
+pip install -r requirements.txt
+streamlit run project-playful-ai.py
+```
+
+---
+
+## ✍️ Author
+
+Made with ❤️ by [Your Name]
