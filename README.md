@@ -10,11 +10,6 @@ An AI-powered storytelling assistant that generates unique narratives, character
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Screenshots](#screenshots)
-- [Project Structure](#project-structure)
-- [Limitations & Future Work](#limitations--future-work)
 - [License](#license)
 
 ---
